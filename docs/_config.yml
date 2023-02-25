@@ -21,21 +21,19 @@
 title: About Me!
 email: jpmc216@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I do stuff in Data and ML!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://jpmc216.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: JasthiPhani
 github_username:  jpmc216
 domain: jpmc216.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 #baseurl: /REPOSITORY-NAME/      # place folder name if the site is served in a subfolder
-name: My Site
+show_downloads: true
 
 # Build settings
-remote_theme: pages-themes/minimal@v0.2.0
+theme: minima
 plugins:
-- jekyll-remote-theme
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
